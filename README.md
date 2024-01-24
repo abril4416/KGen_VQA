@@ -43,12 +43,12 @@ If you find our code or paper useful, please cite the paper:
 The code is tested with python 3.8. To run the code, you should install the package of transformers provided by Huggingface (version 4.29.2), PyTorch library (1.13.1 version), LAVIS package from Salesforce (version 1.0.2). The code is implemented with the CUDA of 11.2 (you can also implement with other compatible versions) on Tesla V 100 GPU card (each with 32G dedicated memory). Besides running the OPT model, all other models take one GPU each.
 
 ###
-## Prepare Datasets  
+## Prepare Datasets
 
-### Step 1: Downloading Datasets 
+### Step 1: Downloading Datasets
 We have tested on three benchmarks for knowledge-intensive VQA (K-VQA) datasets: *OK-VQA* and *A-OKVQA*. Datasets are available online. You can download datasets via links in the original dataset papers and put them into the desired file paths according to the code: OK_PATH, A_OK_PATH, PATH.
 
-### Step 2: Caption Generation  
+### Step 2: Caption Generation
 For memes, we conduct data pre-processing
 
 ## Knowledge Generation
@@ -65,13 +65,13 @@ We next prompt frozen PT-VLMs with questions and cleaned images to obtain Pro-Ca
 ### Incorporating Generated Knowledge for K-VQA
 Before uploading codes, we re-run the codes. Because of the updating of the versions of transformers package, we observe a small variance compared with the reported performance in the paper. We conclude both the reported results and the re-implemented result in the Figure above. There is no significant difference according to p-value. We share both the re-implemented logger files and the logger files for the reported performance in [codes/logger](codes/logger) and [codes/reported](codes/reporte).
 
-### K-VQA based on UnifiedQA  
+### K-VQA based on UnifiedQA
 place holder   
 
-### K-VQA based on OPT  
+### K-VQA based on OPT
 place holder   
 
-### K-VQA based on GPT  
+### K-VQA based on GPT
 place holder   
 
 
