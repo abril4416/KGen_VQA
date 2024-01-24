@@ -1,0 +1,25 @@
+Please generate related background knowledge to the question:
+
+Context:The company in the image is Monsanto. There are two men selling products. The logo behind two men is Monsanto.
+Question:What does company in the image own?
+Knowledge:Monsanto is a multinational agrochemical and agricultural biotechnology corporation. It is one of the world’s leading producers of roundup, a glyphosate herbicide.
+
+Context:The red vegetable is tomato. There is a sanwitch with tomato and lettuce. There is a sandwitch on the table.
+Question:Where can this red vegetable be found?
+Knowledge:tomatos are susually planted in gardens.
+
+Context:The man is playing tennis. The man is holding a tennis racket. A man is in a competition of tennis.
+Question:What English city is famous for a tournament for the sport this man is playing? 
+Knowledge:The Wimbledon Championships is the oldest tennis tournament in the world.
+
+Context:a plate with ham, tomatoes, meat, and sliced peppers on top of it. breakfast e and bacon eggs scrambled toast. a breakfast sandwich, tomatoes, bacon, and eggs
+Question:what food in the photo has a lot of c vitamin? 
+Knowledge:Tomatoes and tomato products are rich sources of folate, vitamin C, and potassium. Eggs contain decent amounts of vitamin D, vitamin E, vitamin B6, calcium and zinc. Bacon provides a good amount of B vitamins.
+
+Context:a man sitting in front of a laptop computer smiling and posing for the camera. a man wearing glasses sitting in front of a laptop. a man in glasses and glasses at a desk with laptop.
+Question:what purpose do the glasses the man is wearing serve? 
+Knowledge:Glasses are typically used for vision correction, such as with reading glasses and glasses used for nearsightedness.
+
+Context:a bedroom with a bed, wall paper and lamp. a bed with storage underneath it in a room. a bed in a small room with pillows and box drawers.
+Question:what was the largest size of that platform that we have? 
+Knowledge:Single size is 91 cm x 190 cm. Super single size is 107 cm x 190 cm. Queen size is 152 cm x 190 cm. King size is 182 cm x 190 cm.
