@@ -34,7 +34,7 @@ If you find our code or paper useful, please cite the paper:
 4. [Knowledge Generation](#kb-generation) (Section 3.1 of the paper)
     * [Step 1: Knowledge Initialization](#step-1-kb-init) 
     * [Step 2: Knowledge Diversification](#step-2-kb-diverse) 
-5. [Experiments: Incorporating Generated Knowledge for K-VQA](#experiments) (Section 3.2 and 4.3 of the paper)
+5. [Incorporating Generated Knowledge for K-VQA](#experiments) (Section 3.2 and 4.3 of the paper)
     * [K-VQA based on UnifiedQA](#performance-uniqa)
     * [K-VQA based on OPT](#prompthate-opt)
     * [K-VQA based on GPT](#prompthate-gpt)   
@@ -62,7 +62,7 @@ To alleviate noisy in input images when prompting PT-VLMs, we detect meme texts 
 We next prompt frozen PT-VLMs with questions and cleaned images to obtain Pro-Cap. You can generate Pro-Cap with our code at [codes/Pro-Cap-Generation.ipynb](codes/Pro-Cap-Generation.ipynb). Or you can alternatively use generated Pro-Cap shared in [codes/Ask-Captions](codes/Ask-Captions).
 
 
-### Experiments: Incorporating Generated Knowledge for K-VQA
+### Incorporating Generated Knowledge for K-VQA
 Before uploading codes, we re-run the codes. Because of the updating of the versions of transformers package, we observe a small variance compared with the reported performance in the paper. We conclude both the reported results and the re-implemented result in the Figure above. There is no significant difference according to p-value. We share both the re-implemented logger files and the logger files for the reported performance in [codes/logger](codes/logger) and [codes/reported](codes/reporte).
 
 ### K-VQA based on UnifiedQA  
