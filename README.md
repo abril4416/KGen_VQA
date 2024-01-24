@@ -29,7 +29,7 @@ If you find our code or paper useful, please cite the paper:
 ## Content
 1. [Installation](#installation)
 2. [Prepare Datasets](#prepare-datasets)
-    * [Step 1: Downloading Datasets](#step-1-down-dataset)
+    * [Step 1: Downloading Datasets](#Step-1:-Downloading-Datasets)
     * [Step 2: Caption Generation](#step-2-cap-gen) 
 4. [Knowledge Generation](#kb-generation) (Section 3.1 of the paper)
     * [Step 1: Knowledge Initialization](#step-1-kb-init) 
