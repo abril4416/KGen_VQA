@@ -35,9 +35,9 @@ If you find our code or paper useful, please cite the paper:
     * [Step 1: Knowledge Initialization](#step-1-knowledge-initialization) 
     * [Step 2: Knowledge Diversification](#step-2-knowledge-diversification) 
 5. [Incorporating Generated Knowledge for K-VQA](#incorporating-generated-knowledge-for-k-vqa) (Section 3.2 and 4.3 of the paper)
-    * [K-VQA based on UnifiedQA](#k-vqa-based-unifiedqa)
-    * [K-VQA based on OPT](#k-vqa-based-opt)
-    * [K-VQA based on GPT](#k-vqa-based-gpt)   
+    * [K-VQA based on UnifiedQA](#k-vqa-based-on-unifiedqa)
+    * [K-VQA based on OPT](#k-vqa-based-on-opt)
+    * [K-VQA based on GPT](#k-vqa-based-on-gpt)   
 
 ## Installation
 The code is tested with python 3.8. To run the code, you should install the package of transformers provided by Huggingface (version 4.29.2), PyTorch library (1.13.1 version), LAVIS package from Salesforce (version 1.0.2). The code is implemented with the CUDA of 11.2 (you can also implement with other compatible versions) on Tesla V 100 GPU card (each with 32G dedicated memory). Besides running the OPT model, all other models take one GPU each.
@@ -49,7 +49,7 @@ The code is tested with python 3.8. To run the code, you should install the pack
 We have tested on three benchmarks for knowledge-intensive VQA (K-VQA) datasets: *OK-VQA* and *A-OKVQA*. Datasets are available online. You can download datasets via links in the original dataset papers and put them into the desired file paths according to the code: OK_PATH, A_OK_PATH, PATH.
 
 ### Step 2: Caption Generation
-For memes, we conduct data pre-processing
+As mentioned in Section 3.2, we used text-based QA model for the final K-VQA. The images should be converted into texts (i.e., image captions) so that text-based models can comprehend. We adopt a similar approach to [PNP-VQA][pnp-vqa] to generate question-aware captions. When utilizing OPT, we follow the code for [Img2LLM][imgllm] to generate synthetic question-answer pairs as demonstrating examples. The generated captions for OK-VQA can be found in *OK_VQA/large_captions* and the captions for A-OKVQA can be found in *A_OKVQA/aokvqa_val_captions_100.pkl*. The synthetic question answer pairs for OK-VQA can be found in *OK_VQA/ok_vqa_qa_img2llm.pkl* and for A-OKVQA.  
 
 ## Knowledge Generation
 
@@ -77,3 +77,5 @@ place holder
 
 
 [paper]: https://arxiv.org/abs/2308.08088
+[pnp-vqa]: https://arxiv.org/pdf/2210.08773.pdf
+[imgllm]: https://arxiv.org/abs/2212.10846
