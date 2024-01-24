@@ -30,14 +30,14 @@ If you find our code or paper useful, please cite the paper:
 1. [Installation](#installation)
 2. [Prepare Datasets](#prepare-datasets)
     * [Step 1: Downloading Datasets](#step-1-downloading-datasets)
-    * [Step 2: Caption Generation](#step-2-cap-gen) 
-4. [Knowledge Generation](#kb-generation) (Section 3.1 of the paper)
-    * [Step 1: Knowledge Initialization](#step-1-kb-init) 
-    * [Step 2: Knowledge Diversification](#step-2-kb-diverse) 
-5. [Incorporating Generated Knowledge for K-VQA](#experiments) (Section 3.2 and 4.3 of the paper)
-    * [K-VQA based on UnifiedQA](#performance-uniqa)
-    * [K-VQA based on OPT](#prompthate-opt)
-    * [K-VQA based on GPT](#prompthate-gpt)   
+    * [Step 2: Caption Generation](#step-2-caption-generation) 
+4. [Knowledge Generation](#knowledge-generation) (Section 3.1 of the paper)
+    * [Step 1: Knowledge Initialization](#step-1-knowledge-initialization) 
+    * [Step 2: Knowledge Diversification](#step-2-knowledge-diversification) 
+5. [Incorporating Generated Knowledge for K-VQA](#incorporating-generated-knowledge-for-k-vqa) (Section 3.2 and 4.3 of the paper)
+    * [K-VQA based on UnifiedQA](#k-vqa-based-unifiedqa)
+    * [K-VQA based on OPT](#k-vqa-based-opt)
+    * [K-VQA based on GPT](#k-vqa-based-gpt)   
 
 ## Installation
 The code is tested with python 3.8. To run the code, you should install the package of transformers provided by Huggingface (version 4.29.2), PyTorch library (1.13.1 version), LAVIS package from Salesforce (version 1.0.2). The code is implemented with the CUDA of 11.2 (you can also implement with other compatible versions) on Tesla V 100 GPU card (each with 32G dedicated memory). Besides running the OPT model, all other models take one GPU each.
